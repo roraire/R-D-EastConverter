@@ -1,0 +1,403 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Overflow by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	    <style type="text/css">
+<!--
+.Style2 {color: #FFFFFF}
+.Style7 {color: #333333; font-weight: bold; }
+-->
+        </style>
+		
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="classes/Slide.js"></script>
+  <script src="classes/Element.js"></script>
+  <script src="classes/Image.js"></script>
+  <script src="ConvertisseurEAST.js"></script>
+		
+</head>
+	<body>
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1>Convertisseur </h1>
+					<p>Des logiciels de présentations</p>
+				</header>
+				<footer>
+					<a href="#banner" class="button style2 scrolly-middle"><!--[-->Débuter votre conversion<!--]--></a>
+				</footer>
+			</section>
+
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2><!--[-->Choisissez le fichier à convertir<!--]--></h2>
+				</header>
+			  <p><!--[-->
+		      Les possibilités de conversion proposées par cet outil est de passer </p>
+			  <p>de LibreOffice/ PowerPoint vers East (EAsy Slide Tool).<br />
+			  
+			    <!--]-->
+		        <br />
+		           
+			   
+			  <footer>
+					
+	<div id="upload">
+    	<h4> Format requis pour passer de LibreOffice à East : ".FODP"</h4>
+		</br>
+		
+    	<form enctype="multipart/form-data" method="post">
+      		<input type="file" name="odfxml" id="odfxml" onchange="fileUpload()" />
+    	</form>
+  </br>
+  </div>
+  <h4> Format requis pour passer de PowerPoint à East : ".xml" </h4>
+  </br>
+  <p id="demo"></p>				
+  <input type="file" id="selectfile" />
+    <p id="demo"></p>
+    <div id="output">			
+					
+					
+			  </footer>
+			</section>
+
+<script>
+    var titles=[];
+    var TitlesOfParts=[];
+    var contents=[];
+    var slideNumber=0;
+    var creator="";
+    var TitlePr="";
+    
+function doit(e) {
+    var files = e.target.files;
+    var reader = new FileReader();
+    reader.onload = function() {
+   $xmlData = $.parseXML(this.result),
+    $part = $('part', $xmlData),
+    extractedFeatures = [];
+    
+
+$part.each(function (index, element) {
+    
+    $element= $(element);
+    //get content & titles
+    if( element.attributes["pkg:contentType"].value =="application/vnd.openxmlformats-officedocument.presentationml.slide+xml" ) {
+            slideNumber++;
+            var contentSlide="";
+            console.log("pkg:name :" + element.attributes["pkg:name"].value);
+
+            var $paragraph = $element.find("p");
+            //console.log($paragraph.length);
+            for (var i=0; i<$paragraph.length; i++){
+                //console.log("t:"+$paragraph.find("t").length);
+                if(i==0){
+                    titles.push($paragraph[i].textContent);
+                    
+                }else{
+                    //console.log($paragraph.find("t")[i]);
+                    contentSlide += '<PARAGRAPHE>' + $paragraph[i].textContent +"</PARAGRAPHE>";;
+                }
+                }
+                console.log(contentSlide);
+                   contents.push(contentSlide);
+            }
+
+    // get presentation prop 
+    if(element.attributes["pkg:contentType"].value =="application/vnd.openxmlformats-package.core-properties+xml"){
+            console.log($element.find("creator")[0]);
+            creator = $element.find("creator")[0].textContent;
+            TitlePr= $element.find("title")[0].textContent;
+            created= $element.find("created")[0].textContent;
+    }
+    // get all titles 
+    if(element.attributes["pkg:contentType"].value =="application/vnd.openxmlformats-officedocument.extended-properties+xml"){
+            var $TitlesOfParts = $element.find("TitlesOfParts");
+            for (var i=0; i<$TitlesOfParts.find("lpstr").length; i++){
+                TitlesOfParts.push($TitlesOfParts.find("lpstr")[i].textContent);
+    }
+   }
+
+   //get All images
+   //if(element.attributes["pkg:compression"].value =="store"){
+   //         console.log($element.textContent);
+           
+   // }
+    
+});
+eastConversion(slideNumber,titles,contents,creator,TitlePr,created,TitlesOfParts);
+//extractedFeatures.push(titles);
+//$('#output').text(JSON.stringify(extractedFeatures));
+}
+     reader.readAsText(files[0]);
+}
+function eastConversion(slideNumber,titles,contents,creator,TitlePr,created){
+        var image;
+        var eastPr ='<?xml version="1.0" encoding="utf-8"?>'+
+                    '<?xml-stylesheet href="EAST.xsl" type="text/xsl"?>'+
+                    '<EAST transition="burst">'+
+                        '<PREFERENCES>'+
+                            '<AFFICHAGE>'+
+                                '<POLICE_TEXTE font="Comic Sans MS"/>'+
+                            '</AFFICHAGE>'+
+                        '</PREFERENCES>'+
+                        '<LOGO_GAUCHE fichier="logo_univ.png" hauteur_SVG="50" largeur_SVG="50"/>'+
+                        '<PIEDPAGE_GAUCHE>'+
+                        '</PIEDPAGE_GAUCHE>\
+                        <PIEDPAGE_DROIT> '+
+                            created.substring(0,10) +
+                        '</PIEDPAGE_DROIT>';
+
+
+                        eastPr +=  '<PAGE_TITRE>\
+                        <TITRE>'+ TitlePr +'</TITRE>'+'hbezbqjnksdljsjqvlfvj'+
+                        '<AUTEUR> '+ creator +'</AUTEUR>\
+                        </PAGE_TITRE><PARTIE>';
+
+        for(var i=0; i<slideNumber; i++){
+           // if(i==0){
+              
+            //}else{
+                // Code pour afficher chaque slide comme partie
+                                        //eastPr += '<PARTIE><TITRE>'+
+                                          //          TitlesOfParts[i]
+                                          //          +'</TITRE>'
+                                          //          +'<SECTION>\
+                                          //          <TITRE>' + titles[i] + '</TITRE>' + 
+                                          //          contents[i] + 
+                                          //          '</SECTION></PARTIE>';
+                                          //  }
+            eastPr +='<SECTION>\
+                    <TITRE>' + titles[i] + 
+                    '</TITRE>'+ 
+                    contents[i] + 
+                    '</SECTION>';
+           // }
+        }
+        eastPr +='</PARTIE></EAST>';
+        //$('#output').text(eastPr);
+        download(TitlePr,eastPr);
+}
+
+function download(filename, eastPr) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:application/xml;charset=utf-8,' + encodeURIComponent(eastPr));
+  element.setAttribute('download', filename);
+
+  element.style.display = 'none';
+  document.body.appendChild(element);
+
+  element.click();
+
+  document.body.removeChild(element);
+}
+document.getElementById("selectfile").addEventListener("change", doit, false);
+
+            </script>
+
+	
+			
+
+		
+
+		<!-- Generic -->
+		<!--
+			<article class="container box style3">
+				<header>
+					<h2>Generic Box</h2>
+					<p>Just a generic box. Nothing to see here.</p>
+				</header>
+				<section>
+					<header>
+						<h3>Paragraph</h3>
+						<p>This is a subtitle</p>
+					</header>
+					<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
+					habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
+					leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
+					amet risus elit.</p>
+				</section>
+				<section>
+					<header>
+						<h3>Blockquote</h3>
+					</header>
+					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+					tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
+				</section>
+				<section>
+					<header>
+						<h3>Divider</h3>
+					</header>
+					<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
+					ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+					facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+					tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+					posuere cubilia.</p>
+					<hr />
+					<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
+					ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+					facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+					tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+					posuere cubilia.</p>
+				</section>
+				<section>
+					<header>
+						<h3>Unordered List</h3>
+					</header>
+					<ul class="default">
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+					</ul>
+				</section>
+				<section>
+					<header>
+						<h3>Ordered List</h3>
+					</header>
+					<ol class="default">
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+					</ol>
+				</section>
+				<section>
+					<header>
+						<h3>Table</h3>
+					</header>
+					<div class="table-wrapper">
+						<table class="default">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>45815</td>
+									<td>Something</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>24524</td>
+									<td>Nothing</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>45815</td>
+									<td>Something</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>24524</td>
+									<td>Nothing</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>19.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="3"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+				<section>
+					<header>
+						<h3>Form</h3>
+					</header>
+					<form method="post" action="#">
+						<div class="row">
+							<div class="6u">
+								<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
+							</div>
+							<div class="6u">
+								<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<select name="department" id="department">
+									<option value="">Choose a department</option>
+									<option value="1">Manufacturing</option>
+									<option value="2">Administration</option>
+									<option value="3">Support</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<textarea name="message" id="message" placeholder="Enter your message"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<ul class="actions">
+									<li><input type="submit" value="Submit" /></li>
+									<li><input type="reset" class="style3" value="Clear Form" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+			</article>
+		-->
+
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+				<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			</ul>
+			<div class="copyright">
+				<ul class="menu">
+					<li>M2 MIAGE Apprentissage</li>
+					<li>Université Paris Saclay (Université d'Evry Val d'Essonne)</li>
+					<li>2016/2017</li>
+					
+				</ul>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

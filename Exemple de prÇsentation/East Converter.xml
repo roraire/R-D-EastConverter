@@ -1,0 +1,4390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?mso-application progid="PowerPoint.Show"?>
+<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+	<pkg:part pkg:name="/_rels/.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="512">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
+				<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail" Target="docProps/thumbnail.jpeg"/>
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="ppt/presentation.xml"/>
+				<Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slides/_rels/slide1.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slides/_rels/slide2.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout2.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slides/_rels/slide3.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout2.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slides/_rels/slide4.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout2.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/_rels/presentation.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="256">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId8" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>
+				<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" Target="slides/slide2.xml"/>
+				<Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/viewProps" Target="viewProps.xml"/>
+				<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" Target="slides/slide1.xml"/>
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="slideMasters/slideMaster1.xml"/>
+				<Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/presProps" Target="presProps.xml"/>
+				<Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" Target="slides/slide4.xml"/>
+				<Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slide" Target="slides/slide3.xml"/>
+				<Relationship Id="rId9" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/tableStyles" Target="tableStyles.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/presentation.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml">
+		<pkg:xmlData>
+			<p:presentation saveSubsetFonts="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:sldMasterIdLst>
+					<p:sldMasterId id="2147483648" r:id="rId1"/>
+				</p:sldMasterIdLst>
+				<p:sldIdLst>
+					<p:sldId id="256" r:id="rId2"/>
+					<p:sldId id="257" r:id="rId3"/>
+					<p:sldId id="258" r:id="rId4"/>
+					<p:sldId id="259" r:id="rId5"/>
+				</p:sldIdLst>
+				<p:sldSz cx="9144000" cy="6858000" type="screen4x3"/>
+				<p:notesSz cx="6858000" cy="9144000"/>
+				<p:defaultTextStyle>
+					<a:defPPr>
+						<a:defRPr lang="fr-FR"/>
+					</a:defPPr>
+					<a:lvl1pPr marL="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl1pPr>
+					<a:lvl2pPr marL="457200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl2pPr>
+					<a:lvl3pPr marL="914400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl3pPr>
+					<a:lvl4pPr marL="1371600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl4pPr>
+					<a:lvl5pPr marL="1828800" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl5pPr>
+					<a:lvl6pPr marL="2286000" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl6pPr>
+					<a:lvl7pPr marL="2743200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl7pPr>
+					<a:lvl8pPr marL="3200400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl8pPr>
+					<a:lvl9pPr marL="3657600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+						<a:defRPr sz="1800" kern="1200">
+							<a:solidFill>
+								<a:schemeClr val="tx1"/>
+							</a:solidFill>
+							<a:latin typeface="+mn-lt"/>
+							<a:ea typeface="+mn-ea"/>
+							<a:cs typeface="+mn-cs"/>
+						</a:defRPr>
+					</a:lvl9pPr>
+				</p:defaultTextStyle>
+			</p:presentation>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slides/slide1.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml">
+		<pkg:xmlData>
+			<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld>
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ctrTitle"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="en-US" dirty="0" smtClean="0"/>
+										<a:t>East Converter </a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US" dirty="0"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Sous-titre 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="subTitle" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>Project</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US" dirty="0"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="2073668869" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sld>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slides/slide2.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml">
+		<pkg:xmlData>
+			<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld>
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="en-US" dirty="0" smtClean="0"/>
+										<a:t>Introduction</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US" dirty="0"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du contenu 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr>
+									<a:normAutofit fontScale="70000" lnSpcReduction="20000"/>
+								</a:bodyPr>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>EAST ( </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>EAsy</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> Slide </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>Tool</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>) est un système de création, de présentation et d'impression de présentations basé sur XML et </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>HTML. C'est </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>un système WYSIWM ( </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>What</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>you</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>See</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> Is </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>What</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>you</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>Mean</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>) par opposition aux systèmes classiques de présentation WYSIWYG ( </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>What</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> You </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>See</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> Is </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>What</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> You </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>Get</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>)</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>Avantages </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>des systèmes </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>WYSIWYM:</a:t>
+									</a:r>
+									<a:endParaRPr lang="fr-FR" dirty="0" smtClean="0"/>
+								</a:p>
+								<a:p>
+									<a:endParaRPr lang="fr-FR" dirty="0" smtClean="0"/>
+								</a:p>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>Plus besoin de soucier de la mise en </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>pageL'orateur</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> se concentre sur son </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>contenuSon</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> contenu est </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>sémantiséLa</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> présentation est </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>homogèneAvantages</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> des systèmes basés sur HTML</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:endParaRPr lang="fr-FR" dirty="0" smtClean="0"/>
+								</a:p>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>Directement visualisables par un navigateur </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>WebBénéficient</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> de toutes les fonctionnalités de HTML : liens, multimédia, ...Installables sur n'importe quel site Web sans </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>transformationsPlus</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> légers</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US" dirty="0"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="2816727400" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sld>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slides/slide3.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml">
+		<pkg:xmlData>
+			<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld>
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="en-US" dirty="0" smtClean="0"/>
+										<a:t>Suite</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US" dirty="0"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du contenu 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>Les présentations EAST fonctionnent :</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:endParaRPr lang="fr-FR" dirty="0" smtClean="0"/>
+								</a:p>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>Sur toutes les versions de Firefox depuis la </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>3.5 </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>Débuggage</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>sous IE en </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>cours Pas </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>encore testées sous Google Chrome Elles utilisent</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:endParaRPr lang="fr-FR" dirty="0" smtClean="0"/>
+								</a:p>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>HTML 5CSS 3Javascript</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US" dirty="0"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="4280781954" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sld>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slides/slide4.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slide+xml">
+		<pkg:xmlData>
+			<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld>
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="en-US" dirty="0" err="1" smtClean="0"/>
+										<a:t>Principes</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="en-US" dirty="0" smtClean="0"/>
+										<a:t> de </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="en-US" dirty="0" err="1" smtClean="0"/>
+										<a:t>fonctionnement</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US" dirty="0"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du contenu 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr>
+									<a:normAutofit fontScale="70000" lnSpcReduction="20000"/>
+								</a:bodyPr>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>EAST fonctionne à l'aide de 3 fichiers :</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:endParaRPr lang="fr-FR" dirty="0" smtClean="0"/>
+								</a:p>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>Un fichier XML qui est la source de la </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>présentationUn</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> fichier XSLT qui va transformer le fichier XML précédant en fichier </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>HTMLUn</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> fichier HTML servant à la </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>présentationLe</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> fichier XML est le </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>coeur</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> de la présentation</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:endParaRPr lang="fr-FR" dirty="0" smtClean="0"/>
+								</a:p>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t>C'est lui qui renferme le </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>contenuC'est</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> le seul à conserver absolument car, à partir de lui, on peut toujours régénérer la présentation Il obéit à un schéma XML qui définit les balises et les attributs sémantiques qui peuvent être </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>utilisésIl</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> peut être créé par n'importe quel éditeur de </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>texteUne</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> interface pour l'éditeur XML gratuit </a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" err="1" smtClean="0"/>
+										<a:t>Jaxe</a:t>
+									</a:r>
+									<a:r>
+										<a:rPr lang="fr-FR" dirty="0" smtClean="0"/>
+										<a:t> est fournie pour aider à la saisie</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US" dirty="0"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="1045180396" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sld>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout6.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideMasters/_rels/slideMaster1.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId8" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout8.xml"/>
+				<Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout3.xml"/>
+				<Relationship Id="rId7" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout7.xml"/>
+				<Relationship Id="rId12" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="../theme/theme1.xml"/>
+				<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout2.xml"/>
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout1.xml"/>
+				<Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout6.xml"/>
+				<Relationship Id="rId11" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout11.xml"/>
+				<Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout5.xml"/>
+				<Relationship Id="rId10" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout10.xml"/>
+				<Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout4.xml"/>
+				<Relationship Id="rId9" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout" Target="../slideLayouts/slideLayout9.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout8.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout9.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout7.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout10.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout2.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout3.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout4.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout1.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout11.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout11.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="vertTitleAndTx" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Titre vertical et texte">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre vertical 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title" orient="vert"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="6629400" y="274638"/>
+									<a:ext cx="2057400" cy="5851525"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr vert="eaVert"/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du texte vertical 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="body" orient="vert" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="274638"/>
+									<a:ext cx="6019800" cy="5851525"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr vert="eaVert"/>
+								<a:lstStyle/>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé de la date 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé du pied de page 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du numéro de diapositive 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="580511219" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout3.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="secHead" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Titre de section">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="722313" y="4406900"/>
+									<a:ext cx="7772400" cy="1362075"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr anchor="t"/>
+								<a:lstStyle>
+									<a:lvl1pPr algn="l">
+										<a:defRPr sz="4000" b="1" cap="all"/>
+									</a:lvl1pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du texte 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="body" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="722313" y="2906713"/>
+									<a:ext cx="7772400" cy="1500187"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr anchor="b"/>
+								<a:lstStyle>
+									<a:lvl1pPr marL="0" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl1pPr>
+									<a:lvl2pPr marL="457200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1800">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl2pPr>
+									<a:lvl3pPr marL="914400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl3pPr>
+									<a:lvl4pPr marL="1371600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1400">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl4pPr>
+									<a:lvl5pPr marL="1828800" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1400">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl5pPr>
+									<a:lvl6pPr marL="2286000" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1400">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl6pPr>
+									<a:lvl7pPr marL="2743200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1400">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl7pPr>
+									<a:lvl8pPr marL="3200400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1400">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl8pPr>
+									<a:lvl9pPr marL="3657600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1400">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé de la date 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé du pied de page 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du numéro de diapositive 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="475450837" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout2.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="obj" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Titre et contenu">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du contenu 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé de la date 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé du pied de page 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du numéro de diapositive 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="1427279807" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout1.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="title" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Diapositive de titre">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ctrTitle"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="685800" y="2130425"/>
+									<a:ext cx="7772400" cy="1470025"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Sous-titre 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="subTitle" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="1371600" y="3886200"/>
+									<a:ext cx="6400800" cy="1752600"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr marL="0" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl1pPr>
+									<a:lvl2pPr marL="457200" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl2pPr>
+									<a:lvl3pPr marL="914400" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl3pPr>
+									<a:lvl4pPr marL="1371600" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl4pPr>
+									<a:lvl5pPr marL="1828800" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl5pPr>
+									<a:lvl6pPr marL="2286000" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl6pPr>
+									<a:lvl7pPr marL="2743200" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl7pPr>
+									<a:lvl8pPr marL="3200400" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl8pPr>
+									<a:lvl9pPr marL="3657600" indent="0" algn="ctr">
+										<a:buNone/>
+										<a:defRPr>
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style des sous-titres du masque</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé de la date 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé du pied de page 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du numéro de diapositive 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="1340713878" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideMasters/slideMaster1.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml">
+		<pkg:xmlData>
+			<p:sldMaster xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld>
+					<p:bg>
+						<p:bgRef idx="1001">
+							<a:schemeClr val="bg1"/>
+						</p:bgRef>
+					</p:bg>
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Espace réservé du titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="274638"/>
+									<a:ext cx="8229600" cy="1143000"/>
+								</a:xfrm>
+								<a:prstGeom prst="rect">
+									<a:avLst/>
+								</a:prstGeom>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="ctr">
+									<a:normAutofit/>
+								</a:bodyPr>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du texte 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="body" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="1600200"/>
+									<a:ext cx="8229600" cy="4525963"/>
+								</a:xfrm>
+								<a:prstGeom prst="rect">
+									<a:avLst/>
+								</a:prstGeom>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0">
+									<a:normAutofit/>
+								</a:bodyPr>
+								<a:lstStyle/>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé de la date 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="2"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="6356350"/>
+									<a:ext cx="2133600" cy="365125"/>
+								</a:xfrm>
+								<a:prstGeom prst="rect">
+									<a:avLst/>
+								</a:prstGeom>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="ctr"/>
+								<a:lstStyle>
+									<a:lvl1pPr algn="l">
+										<a:defRPr sz="1200">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl1pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé du pied de page 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="3"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="3124200" y="6356350"/>
+									<a:ext cx="2895600" cy="365125"/>
+								</a:xfrm>
+								<a:prstGeom prst="rect">
+									<a:avLst/>
+								</a:prstGeom>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="ctr"/>
+								<a:lstStyle>
+									<a:lvl1pPr algn="ctr">
+										<a:defRPr sz="1200">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl1pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du numéro de diapositive 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="4"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="6553200" y="6356350"/>
+									<a:ext cx="2133600" cy="365125"/>
+								</a:xfrm>
+								<a:prstGeom prst="rect">
+									<a:avLst/>
+								</a:prstGeom>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr vert="horz" lIns="91440" tIns="45720" rIns="91440" bIns="45720" rtlCol="0" anchor="ctr"/>
+								<a:lstStyle>
+									<a:lvl1pPr algn="r">
+										<a:defRPr sz="1200">
+											<a:solidFill>
+												<a:schemeClr val="tx1">
+													<a:tint val="75000"/>
+												</a:schemeClr>
+											</a:solidFill>
+										</a:defRPr>
+									</a:lvl1pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="474934345" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMap bg1="lt1" tx1="dk1" bg2="lt2" tx2="dk2" accent1="accent1" accent2="accent2" accent3="accent3" accent4="accent4" accent5="accent5" accent6="accent6" hlink="hlink" folHlink="folHlink"/>
+				<p:sldLayoutIdLst>
+					<p:sldLayoutId id="2147483649" r:id="rId1"/>
+					<p:sldLayoutId id="2147483650" r:id="rId2"/>
+					<p:sldLayoutId id="2147483651" r:id="rId3"/>
+					<p:sldLayoutId id="2147483652" r:id="rId4"/>
+					<p:sldLayoutId id="2147483653" r:id="rId5"/>
+					<p:sldLayoutId id="2147483654" r:id="rId6"/>
+					<p:sldLayoutId id="2147483655" r:id="rId7"/>
+					<p:sldLayoutId id="2147483656" r:id="rId8"/>
+					<p:sldLayoutId id="2147483657" r:id="rId9"/>
+					<p:sldLayoutId id="2147483658" r:id="rId10"/>
+					<p:sldLayoutId id="2147483659" r:id="rId11"/>
+				</p:sldLayoutIdLst>
+				<p:txStyles>
+					<p:titleStyle>
+						<a:lvl1pPr algn="ctr" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="0"/>
+							</a:spcBef>
+							<a:buNone/>
+							<a:defRPr sz="4400" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mj-lt"/>
+								<a:ea typeface="+mj-ea"/>
+								<a:cs typeface="+mj-cs"/>
+							</a:defRPr>
+						</a:lvl1pPr>
+					</p:titleStyle>
+					<p:bodyStyle>
+						<a:lvl1pPr marL="342900" indent="-342900" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="•"/>
+							<a:defRPr sz="3200" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl1pPr>
+						<a:lvl2pPr marL="742950" indent="-285750" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="–"/>
+							<a:defRPr sz="2800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl2pPr>
+						<a:lvl3pPr marL="1143000" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="•"/>
+							<a:defRPr sz="2400" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl3pPr>
+						<a:lvl4pPr marL="1600200" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="–"/>
+							<a:defRPr sz="2000" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl4pPr>
+						<a:lvl5pPr marL="2057400" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="»"/>
+							<a:defRPr sz="2000" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl5pPr>
+						<a:lvl6pPr marL="2514600" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="•"/>
+							<a:defRPr sz="2000" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl6pPr>
+						<a:lvl7pPr marL="2971800" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="•"/>
+							<a:defRPr sz="2000" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl7pPr>
+						<a:lvl8pPr marL="3429000" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="•"/>
+							<a:defRPr sz="2000" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl8pPr>
+						<a:lvl9pPr marL="3886200" indent="-228600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:spcBef>
+								<a:spcPct val="20000"/>
+							</a:spcBef>
+							<a:buFont typeface="Arial" panose="020B0604020202020204" pitchFamily="34" charset="0"/>
+							<a:buChar char="•"/>
+							<a:defRPr sz="2000" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl9pPr>
+					</p:bodyStyle>
+					<p:otherStyle>
+						<a:defPPr>
+							<a:defRPr lang="fr-FR"/>
+						</a:defPPr>
+						<a:lvl1pPr marL="0" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl1pPr>
+						<a:lvl2pPr marL="457200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl2pPr>
+						<a:lvl3pPr marL="914400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl3pPr>
+						<a:lvl4pPr marL="1371600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl4pPr>
+						<a:lvl5pPr marL="1828800" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl5pPr>
+						<a:lvl6pPr marL="2286000" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl6pPr>
+						<a:lvl7pPr marL="2743200" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl7pPr>
+						<a:lvl8pPr marL="3200400" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl8pPr>
+						<a:lvl9pPr marL="3657600" algn="l" defTabSz="914400" rtl="0" eaLnBrk="1" latinLnBrk="0" hangingPunct="1">
+							<a:defRPr sz="1800" kern="1200">
+								<a:solidFill>
+									<a:schemeClr val="tx1"/>
+								</a:solidFill>
+								<a:latin typeface="+mn-lt"/>
+								<a:ea typeface="+mn-ea"/>
+								<a:cs typeface="+mn-cs"/>
+							</a:defRPr>
+						</a:lvl9pPr>
+					</p:otherStyle>
+				</p:txStyles>
+			</p:sldMaster>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout4.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="twoObj" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Deux contenus">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du contenu 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph sz="half" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="1600200"/>
+									<a:ext cx="4038600" cy="4525963"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr>
+										<a:defRPr sz="2800"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr>
+										<a:defRPr sz="2400"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé du contenu 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph sz="half" idx="2"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="4648200" y="1600200"/>
+									<a:ext cx="4038600" cy="4525963"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr>
+										<a:defRPr sz="2800"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr>
+										<a:defRPr sz="2400"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé de la date 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du pied de page 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="7" name="Espace réservé du numéro de diapositive 6"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="2198675220" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout5.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="twoTxTwoObj" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Comparaison">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr>
+										<a:defRPr/>
+									</a:lvl1pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du texte 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="body" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="1535113"/>
+									<a:ext cx="4040188" cy="639762"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr anchor="b"/>
+								<a:lstStyle>
+									<a:lvl1pPr marL="0" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2400" b="1"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr marL="457200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000" b="1"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr marL="914400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1800" b="1"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr marL="1371600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr marL="1828800" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr marL="2286000" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr marL="2743200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr marL="3200400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr marL="3657600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé du contenu 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph sz="half" idx="2"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="2174875"/>
+									<a:ext cx="4040188" cy="3951288"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr>
+										<a:defRPr sz="2400"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé du texte 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="body" sz="quarter" idx="3"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="4645025" y="1535113"/>
+									<a:ext cx="4041775" cy="639762"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr anchor="b"/>
+								<a:lstStyle>
+									<a:lvl1pPr marL="0" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2400" b="1"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr marL="457200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000" b="1"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr marL="914400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1800" b="1"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr marL="1371600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr marL="1828800" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr marL="2286000" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr marL="2743200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr marL="3200400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr marL="3657600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1600" b="1"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du contenu 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph sz="quarter" idx="4"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="4645025" y="2174875"/>
+									<a:ext cx="4041775" cy="3951288"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr>
+										<a:defRPr sz="2400"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr>
+										<a:defRPr sz="1800"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr>
+										<a:defRPr sz="1600"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="7" name="Espace réservé de la date 6"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="8" name="Espace réservé du pied de page 7"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="9" name="Espace réservé du numéro de diapositive 8"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="1063680032" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout6.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="titleOnly" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Titre seul">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé de la date 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé du pied de page 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé du numéro de diapositive 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="670331731" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout10.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="vertTx" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Titre et texte vertical">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du texte vertical 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="body" orient="vert" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr vert="eaVert"/>
+								<a:lstStyle/>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé de la date 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé du pied de page 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du numéro de diapositive 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="3109274073" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout9.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="picTx" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Image avec légende">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="1792288" y="4800600"/>
+									<a:ext cx="5486400" cy="566738"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr anchor="b"/>
+								<a:lstStyle>
+									<a:lvl1pPr algn="l">
+										<a:defRPr sz="2000" b="1"/>
+									</a:lvl1pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé pour une image  2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="pic" idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="1792288" y="612775"/>
+									<a:ext cx="5486400" cy="4114800"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr marL="0" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="3200"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr marL="457200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2800"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr marL="914400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2400"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr marL="1371600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr marL="1828800" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr marL="2286000" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr marL="2743200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr marL="3200400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr marL="3657600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="2000"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé du texte 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="body" sz="half" idx="2"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="1792288" y="5367338"/>
+									<a:ext cx="5486400" cy="804862"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr marL="0" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1400"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr marL="457200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1200"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr marL="914400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1000"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr marL="1371600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr marL="1828800" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr marL="2286000" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr marL="2743200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr marL="3200400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr marL="3657600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé de la date 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du pied de page 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="7" name="Espace réservé du numéro de diapositive 6"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="1671291928" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout8.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="objTx" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Contenu avec légende">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Titre 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="title"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="273050"/>
+									<a:ext cx="3008313" cy="1162050"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr anchor="b"/>
+								<a:lstStyle>
+									<a:lvl1pPr algn="l">
+										<a:defRPr sz="2000" b="1"/>
+									</a:lvl1pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez le style du titre</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du contenu 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph idx="1"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="3575050" y="273050"/>
+									<a:ext cx="5111750" cy="5853113"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr>
+										<a:defRPr sz="3200"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr>
+										<a:defRPr sz="2800"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr>
+										<a:defRPr sz="2400"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr>
+										<a:defRPr sz="2000"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="1"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Deuxième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="2"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Troisième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="3"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Quatrième niveau</a:t>
+									</a:r>
+								</a:p>
+								<a:p>
+									<a:pPr lvl="4"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Cinquième niveau</a:t>
+									</a:r>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé du texte 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="body" sz="half" idx="2"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr>
+								<a:xfrm>
+									<a:off x="457200" y="1435100"/>
+									<a:ext cx="3008313" cy="4691063"/>
+								</a:xfrm>
+							</p:spPr>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle>
+									<a:lvl1pPr marL="0" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1400"/>
+									</a:lvl1pPr>
+									<a:lvl2pPr marL="457200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1200"/>
+									</a:lvl2pPr>
+									<a:lvl3pPr marL="914400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="1000"/>
+									</a:lvl3pPr>
+									<a:lvl4pPr marL="1371600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl4pPr>
+									<a:lvl5pPr marL="1828800" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl5pPr>
+									<a:lvl6pPr marL="2286000" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl6pPr>
+									<a:lvl7pPr marL="2743200" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl7pPr>
+									<a:lvl8pPr marL="3200400" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl8pPr>
+									<a:lvl9pPr marL="3657600" indent="0">
+										<a:buNone/>
+										<a:defRPr sz="900"/>
+									</a:lvl9pPr>
+								</a:lstStyle>
+								<a:p>
+									<a:pPr lvl="0"/>
+									<a:r>
+										<a:rPr lang="fr-FR" smtClean="0"/>
+										<a:t>Modifiez les styles du texte du masque</a:t>
+									</a:r>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="5" name="Espace réservé de la date 4"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="6" name="Espace réservé du pied de page 5"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="7" name="Espace réservé du numéro de diapositive 6"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="3238546871" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/slideLayout7.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml">
+		<pkg:xmlData>
+			<p:sldLayout type="blank" preserve="1" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:cSld name="Vide">
+					<p:spTree>
+						<p:nvGrpSpPr>
+							<p:cNvPr id="1" name=""/>
+							<p:cNvGrpSpPr/>
+							<p:nvPr/>
+						</p:nvGrpSpPr>
+						<p:grpSpPr>
+							<a:xfrm>
+								<a:off x="0" y="0"/>
+								<a:ext cx="0" cy="0"/>
+								<a:chOff x="0" y="0"/>
+								<a:chExt cx="0" cy="0"/>
+							</a:xfrm>
+						</p:grpSpPr>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="2" name="Espace réservé de la date 1"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="dt" sz="half" idx="10"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{8E853D4A-4C9E-4EBC-B877-CF07A94663E5}" type="datetimeFigureOut">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>3/28/2017</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="3" name="Espace réservé du pied de page 2"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="ftr" sz="quarter" idx="11"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+						<p:sp>
+							<p:nvSpPr>
+								<p:cNvPr id="4" name="Espace réservé du numéro de diapositive 3"/>
+								<p:cNvSpPr>
+									<a:spLocks noGrp="1"/>
+								</p:cNvSpPr>
+								<p:nvPr>
+									<p:ph type="sldNum" sz="quarter" idx="12"/>
+								</p:nvPr>
+							</p:nvSpPr>
+							<p:spPr/>
+							<p:txBody>
+								<a:bodyPr/>
+								<a:lstStyle/>
+								<a:p>
+									<a:fld id="{E6A01F37-8393-4AA9-8BAE-EB5087B4394A}" type="slidenum">
+										<a:rPr lang="en-US" smtClean="0"/>
+										<a:t>‹N°›</a:t>
+									</a:fld>
+									<a:endParaRPr lang="en-US"/>
+								</a:p>
+							</p:txBody>
+						</p:sp>
+					</p:spTree>
+					<p:extLst>
+						<p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+							<p14:creationId val="3037769801" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+						</p:ext>
+					</p:extLst>
+				</p:cSld>
+				<p:clrMapOvr>
+					<a:masterClrMapping/>
+				</p:clrMapOvr>
+			</p:sldLayout>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/slideLayouts/_rels/slideLayout5.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml">
+		<pkg:xmlData>
+			<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+				<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideMaster" Target="../slideMasters/slideMaster1.xml"/>
+			</Relationships>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/theme/theme1.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.theme+xml">
+		<pkg:xmlData>
+			<a:theme name="Thème Office" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+				<a:themeElements>
+					<a:clrScheme name="Office">
+						<a:dk1>
+							<a:sysClr val="windowText" lastClr="000000"/>
+						</a:dk1>
+						<a:lt1>
+							<a:sysClr val="window" lastClr="FFFFFF"/>
+						</a:lt1>
+						<a:dk2>
+							<a:srgbClr val="1F497D"/>
+						</a:dk2>
+						<a:lt2>
+							<a:srgbClr val="EEECE1"/>
+						</a:lt2>
+						<a:accent1>
+							<a:srgbClr val="4F81BD"/>
+						</a:accent1>
+						<a:accent2>
+							<a:srgbClr val="C0504D"/>
+						</a:accent2>
+						<a:accent3>
+							<a:srgbClr val="9BBB59"/>
+						</a:accent3>
+						<a:accent4>
+							<a:srgbClr val="8064A2"/>
+						</a:accent4>
+						<a:accent5>
+							<a:srgbClr val="4BACC6"/>
+						</a:accent5>
+						<a:accent6>
+							<a:srgbClr val="F79646"/>
+						</a:accent6>
+						<a:hlink>
+							<a:srgbClr val="0000FF"/>
+						</a:hlink>
+						<a:folHlink>
+							<a:srgbClr val="800080"/>
+						</a:folHlink>
+					</a:clrScheme>
+					<a:fontScheme name="Office">
+						<a:majorFont>
+							<a:latin typeface="Calibri"/>
+							<a:ea typeface=""/>
+							<a:cs typeface=""/>
+							<a:font script="Jpan" typeface="ＭＳ Ｐゴシック"/>
+							<a:font script="Hang" typeface="맑은 고딕"/>
+							<a:font script="Hans" typeface="宋体"/>
+							<a:font script="Hant" typeface="新細明體"/>
+							<a:font script="Arab" typeface="Times New Roman"/>
+							<a:font script="Hebr" typeface="Times New Roman"/>
+							<a:font script="Thai" typeface="Angsana New"/>
+							<a:font script="Ethi" typeface="Nyala"/>
+							<a:font script="Beng" typeface="Vrinda"/>
+							<a:font script="Gujr" typeface="Shruti"/>
+							<a:font script="Khmr" typeface="MoolBoran"/>
+							<a:font script="Knda" typeface="Tunga"/>
+							<a:font script="Guru" typeface="Raavi"/>
+							<a:font script="Cans" typeface="Euphemia"/>
+							<a:font script="Cher" typeface="Plantagenet Cherokee"/>
+							<a:font script="Yiii" typeface="Microsoft Yi Baiti"/>
+							<a:font script="Tibt" typeface="Microsoft Himalaya"/>
+							<a:font script="Thaa" typeface="MV Boli"/>
+							<a:font script="Deva" typeface="Mangal"/>
+							<a:font script="Telu" typeface="Gautami"/>
+							<a:font script="Taml" typeface="Latha"/>
+							<a:font script="Syrc" typeface="Estrangelo Edessa"/>
+							<a:font script="Orya" typeface="Kalinga"/>
+							<a:font script="Mlym" typeface="Kartika"/>
+							<a:font script="Laoo" typeface="DokChampa"/>
+							<a:font script="Sinh" typeface="Iskoola Pota"/>
+							<a:font script="Mong" typeface="Mongolian Baiti"/>
+							<a:font script="Viet" typeface="Times New Roman"/>
+							<a:font script="Uigh" typeface="Microsoft Uighur"/>
+							<a:font script="Geor" typeface="Sylfaen"/>
+						</a:majorFont>
+						<a:minorFont>
+							<a:latin typeface="Calibri"/>
+							<a:ea typeface=""/>
+							<a:cs typeface=""/>
+							<a:font script="Jpan" typeface="ＭＳ Ｐゴシック"/>
+							<a:font script="Hang" typeface="맑은 고딕"/>
+							<a:font script="Hans" typeface="宋体"/>
+							<a:font script="Hant" typeface="新細明體"/>
+							<a:font script="Arab" typeface="Arial"/>
+							<a:font script="Hebr" typeface="Arial"/>
+							<a:font script="Thai" typeface="Cordia New"/>
+							<a:font script="Ethi" typeface="Nyala"/>
+							<a:font script="Beng" typeface="Vrinda"/>
+							<a:font script="Gujr" typeface="Shruti"/>
+							<a:font script="Khmr" typeface="DaunPenh"/>
+							<a:font script="Knda" typeface="Tunga"/>
+							<a:font script="Guru" typeface="Raavi"/>
+							<a:font script="Cans" typeface="Euphemia"/>
+							<a:font script="Cher" typeface="Plantagenet Cherokee"/>
+							<a:font script="Yiii" typeface="Microsoft Yi Baiti"/>
+							<a:font script="Tibt" typeface="Microsoft Himalaya"/>
+							<a:font script="Thaa" typeface="MV Boli"/>
+							<a:font script="Deva" typeface="Mangal"/>
+							<a:font script="Telu" typeface="Gautami"/>
+							<a:font script="Taml" typeface="Latha"/>
+							<a:font script="Syrc" typeface="Estrangelo Edessa"/>
+							<a:font script="Orya" typeface="Kalinga"/>
+							<a:font script="Mlym" typeface="Kartika"/>
+							<a:font script="Laoo" typeface="DokChampa"/>
+							<a:font script="Sinh" typeface="Iskoola Pota"/>
+							<a:font script="Mong" typeface="Mongolian Baiti"/>
+							<a:font script="Viet" typeface="Arial"/>
+							<a:font script="Uigh" typeface="Microsoft Uighur"/>
+							<a:font script="Geor" typeface="Sylfaen"/>
+						</a:minorFont>
+					</a:fontScheme>
+					<a:fmtScheme name="Office">
+						<a:fillStyleLst>
+							<a:solidFill>
+								<a:schemeClr val="phClr"/>
+							</a:solidFill>
+							<a:gradFill rotWithShape="1">
+								<a:gsLst>
+									<a:gs pos="0">
+										<a:schemeClr val="phClr">
+											<a:tint val="50000"/>
+											<a:satMod val="300000"/>
+										</a:schemeClr>
+									</a:gs>
+									<a:gs pos="35000">
+										<a:schemeClr val="phClr">
+											<a:tint val="37000"/>
+											<a:satMod val="300000"/>
+										</a:schemeClr>
+									</a:gs>
+									<a:gs pos="100000">
+										<a:schemeClr val="phClr">
+											<a:tint val="15000"/>
+											<a:satMod val="350000"/>
+										</a:schemeClr>
+									</a:gs>
+								</a:gsLst>
+								<a:lin ang="16200000" scaled="1"/>
+							</a:gradFill>
+							<a:gradFill rotWithShape="1">
+								<a:gsLst>
+									<a:gs pos="0">
+										<a:schemeClr val="phClr">
+											<a:shade val="51000"/>
+											<a:satMod val="130000"/>
+										</a:schemeClr>
+									</a:gs>
+									<a:gs pos="80000">
+										<a:schemeClr val="phClr">
+											<a:shade val="93000"/>
+											<a:satMod val="130000"/>
+										</a:schemeClr>
+									</a:gs>
+									<a:gs pos="100000">
+										<a:schemeClr val="phClr">
+											<a:shade val="94000"/>
+											<a:satMod val="135000"/>
+										</a:schemeClr>
+									</a:gs>
+								</a:gsLst>
+								<a:lin ang="16200000" scaled="0"/>
+							</a:gradFill>
+						</a:fillStyleLst>
+						<a:lnStyleLst>
+							<a:ln w="9525" cap="flat" cmpd="sng" algn="ctr">
+								<a:solidFill>
+									<a:schemeClr val="phClr">
+										<a:shade val="95000"/>
+										<a:satMod val="105000"/>
+									</a:schemeClr>
+								</a:solidFill>
+								<a:prstDash val="solid"/>
+							</a:ln>
+							<a:ln w="25400" cap="flat" cmpd="sng" algn="ctr">
+								<a:solidFill>
+									<a:schemeClr val="phClr"/>
+								</a:solidFill>
+								<a:prstDash val="solid"/>
+							</a:ln>
+							<a:ln w="38100" cap="flat" cmpd="sng" algn="ctr">
+								<a:solidFill>
+									<a:schemeClr val="phClr"/>
+								</a:solidFill>
+								<a:prstDash val="solid"/>
+							</a:ln>
+						</a:lnStyleLst>
+						<a:effectStyleLst>
+							<a:effectStyle>
+								<a:effectLst>
+									<a:outerShdw blurRad="40000" dist="20000" dir="5400000" rotWithShape="0">
+										<a:srgbClr val="000000">
+											<a:alpha val="38000"/>
+										</a:srgbClr>
+									</a:outerShdw>
+								</a:effectLst>
+							</a:effectStyle>
+							<a:effectStyle>
+								<a:effectLst>
+									<a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0">
+										<a:srgbClr val="000000">
+											<a:alpha val="35000"/>
+										</a:srgbClr>
+									</a:outerShdw>
+								</a:effectLst>
+							</a:effectStyle>
+							<a:effectStyle>
+								<a:effectLst>
+									<a:outerShdw blurRad="40000" dist="23000" dir="5400000" rotWithShape="0">
+										<a:srgbClr val="000000">
+											<a:alpha val="35000"/>
+										</a:srgbClr>
+									</a:outerShdw>
+								</a:effectLst>
+								<a:scene3d>
+									<a:camera prst="orthographicFront">
+										<a:rot lat="0" lon="0" rev="0"/>
+									</a:camera>
+									<a:lightRig rig="threePt" dir="t">
+										<a:rot lat="0" lon="0" rev="1200000"/>
+									</a:lightRig>
+								</a:scene3d>
+								<a:sp3d>
+									<a:bevelT w="63500" h="25400"/>
+								</a:sp3d>
+							</a:effectStyle>
+						</a:effectStyleLst>
+						<a:bgFillStyleLst>
+							<a:solidFill>
+								<a:schemeClr val="phClr"/>
+							</a:solidFill>
+							<a:gradFill rotWithShape="1">
+								<a:gsLst>
+									<a:gs pos="0">
+										<a:schemeClr val="phClr">
+											<a:tint val="40000"/>
+											<a:satMod val="350000"/>
+										</a:schemeClr>
+									</a:gs>
+									<a:gs pos="40000">
+										<a:schemeClr val="phClr">
+											<a:tint val="45000"/>
+											<a:shade val="99000"/>
+											<a:satMod val="350000"/>
+										</a:schemeClr>
+									</a:gs>
+									<a:gs pos="100000">
+										<a:schemeClr val="phClr">
+											<a:shade val="20000"/>
+											<a:satMod val="255000"/>
+										</a:schemeClr>
+									</a:gs>
+								</a:gsLst>
+								<a:path path="circle">
+									<a:fillToRect l="50000" t="-80000" r="50000" b="180000"/>
+								</a:path>
+							</a:gradFill>
+							<a:gradFill rotWithShape="1">
+								<a:gsLst>
+									<a:gs pos="0">
+										<a:schemeClr val="phClr">
+											<a:tint val="80000"/>
+											<a:satMod val="300000"/>
+										</a:schemeClr>
+									</a:gs>
+									<a:gs pos="100000">
+										<a:schemeClr val="phClr">
+											<a:shade val="30000"/>
+											<a:satMod val="200000"/>
+										</a:schemeClr>
+									</a:gs>
+								</a:gsLst>
+								<a:path path="circle">
+									<a:fillToRect l="50000" t="50000" r="50000" b="50000"/>
+								</a:path>
+							</a:gradFill>
+						</a:bgFillStyleLst>
+					</a:fmtScheme>
+				</a:themeElements>
+				<a:objectDefaults/>
+				<a:extraClrSchemeLst/>
+			</a:theme>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/docProps/thumbnail.jpeg" pkg:contentType="image/jpeg" pkg:compression="store">
+		<pkg:binaryData>
+			/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+			AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+			AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCADAAQADASIA
+			AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+			AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+			ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+			p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+			AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+			BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+			U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+			uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iii
+			igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+			ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+			KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+			oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+			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
+			/hm+8SS+E9Bk1688Ny2y2Unh+71h9POoXGiSWaJaPpM1w9g9siwNbmJQglKapzjKSnV9nWhCpH3I
+			e0lFOjWacG2qTTpOm0nNyWLnK0XgJac0FiVUjF/V/rrrOjKzk8L9ZlP6tzXcVKVFp86TVOMfqsYz
+			cljobXha+1vUvDuj6h4jsNG0zW72xhudQsPD2tXfiPRbeaYb1XTdbv8AQ/DV3qNs0RjkWefQ9ObL
+			sghZUWWTerI0Hw/oPhXR7Dw94Y0TSPDmgaVB9m0vQ9B02z0fR9Ntt7SfZ7DTNPht7Kzg3u7+VbwR
+			x73ZtuWJOvWs3Fzm4Llg5ycI6+7Ft8q1ctlZfE/V7nPRjOFKlCpLnqRpwjUn/POMUpS6fFJN7LcK
+			KKKg0CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+			oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+			igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+			ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+			KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/ZA9sB
+			AAAAABAD3gEAAAAAFAPgAQAAAAAYA+IBAAAAABwD5QEAAAAAIAPnAQAAAAAkA+oBAAAAACgD7AEA
+			AAAAKwPuAQAAAAAvA/EBAAAAADMD8wEAAAAANwP2AQAAAAA7A/gBAAAAAD8D+gEAAAAAQwP9AQAA
+			AABHA/8BAAAAAEsDAQIAAAAATwMEAgAAAABSAwYCAAAAAFYDCQIAAAAAWgMLAgAAAABeAw0CAAAA
+			AGIDEAIAAAAAZgMSAgAAAABqAxQCAAAAAG4DFwIAAAAAcgMZAgAAAAB2AxwCAAAAAHkDHgIAAAAA
+			fQMgAgAAAACBAyMCAAAAAIUDJQIAAAAAiQMnAgAAAACNAyoCAAAAAJEDLAIAAAAAlQMvAgAAAACZ
+			AzECAAAAAJ0DMwIAAAAAoQM2AgAAAACkAzgCAAAAAKgDOgIAAAAArAM9AgAAAACwAz8CAAAAALQD
+			QgIAAAAAuANEAgAAAAC8A0YCAAAAAMADSQIAAAAAxANLAgAAAADIA00CAAAAAMsDUAIAAAAAzwNS
+			AgAAAADTA1UCAAAAANcDVwIAAAAA2wNZAgAAAADfA1wCAAAAAOMDXgIAAAAA
+		</pkg:binaryData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/presProps.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.presProps+xml">
+		<pkg:xmlData>
+			<p:presentationPr xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:extLst>
+					<p:ext uri="{E76CE94A-603C-4142-B9EB-6D1370010A27}">
+						<p14:discardImageEditData val="0" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+					</p:ext>
+					<p:ext uri="{D31A062A-798A-4329-ABDD-BBA856620510}">
+						<p14:defaultImageDpi val="220" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main"/>
+					</p:ext>
+				</p:extLst>
+			</p:presentationPr>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/tableStyles.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml">
+		<pkg:xmlData>
+			<a:tblStyleLst def="{5C22544A-7EE6-4342-B048-85BDC9FD1C3A}" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"/>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/ppt/viewProps.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml">
+		<pkg:xmlData>
+			<p:viewPr xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+				<p:normalViewPr>
+					<p:restoredLeft sz="15620"/>
+					<p:restoredTop sz="94660"/>
+				</p:normalViewPr>
+				<p:slideViewPr>
+					<p:cSldViewPr>
+						<p:cViewPr varScale="1">
+							<p:scale>
+								<a:sx n="69" d="100"/>
+								<a:sy n="69" d="100"/>
+							</p:scale>
+							<p:origin x="-1404" y="-96"/>
+						</p:cViewPr>
+						<p:guideLst>
+							<p:guide orient="horz" pos="2160"/>
+							<p:guide pos="2880"/>
+						</p:guideLst>
+					</p:cSldViewPr>
+				</p:slideViewPr>
+				<p:notesTextViewPr>
+					<p:cViewPr>
+						<p:scale>
+							<a:sx n="1" d="1"/>
+							<a:sy n="1" d="1"/>
+						</p:scale>
+						<p:origin x="0" y="0"/>
+					</p:cViewPr>
+				</p:notesTextViewPr>
+				<p:gridSpacing cx="72008" cy="72008"/>
+			</p:viewPr>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/docProps/core.xml" pkg:contentType="application/vnd.openxmlformats-package.core-properties+xml" pkg:padding="256">
+		<pkg:xmlData>
+			<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<dc:title>East Converter </dc:title>
+				<dc:creator>Boukarabila, Abderrahim</dc:creator>
+				<cp:lastModifiedBy>Boukarabila, Abderrahim</cp:lastModifiedBy>
+				<cp:revision>4</cp:revision>
+				<dcterms:created xsi:type="dcterms:W3CDTF">2017-03-28T07:52:29Z</dcterms:created>
+				<dcterms:modified xsi:type="dcterms:W3CDTF">2017-03-28T08:12:27Z</dcterms:modified>
+			</cp:coreProperties>
+		</pkg:xmlData>
+	</pkg:part>
+	<pkg:part pkg:name="/docProps/app.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.extended-properties+xml" pkg:padding="256">
+		<pkg:xmlData>
+			<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+				<TotalTime>0</TotalTime>
+				<Words>257</Words>
+				<Application>Microsoft Office PowerPoint</Application>
+				<PresentationFormat>Affichage à l'écran (4:3)</PresentationFormat>
+				<Paragraphs>21</Paragraphs>
+				<Slides>4</Slides>
+				<Notes>0</Notes>
+				<HiddenSlides>0</HiddenSlides>
+				<MMClips>0</MMClips>
+				<ScaleCrop>false</ScaleCrop>
+				<HeadingPairs>
+					<vt:vector size="4" baseType="variant">
+						<vt:variant>
+							<vt:lpstr>Thème</vt:lpstr>
+						</vt:variant>
+						<vt:variant>
+							<vt:i4>1</vt:i4>
+						</vt:variant>
+						<vt:variant>
+							<vt:lpstr>Titres des diapositives</vt:lpstr>
+						</vt:variant>
+						<vt:variant>
+							<vt:i4>4</vt:i4>
+						</vt:variant>
+					</vt:vector>
+				</HeadingPairs>
+				<TitlesOfParts>
+					<vt:vector size="5" baseType="lpstr">
+						<vt:lpstr>Thème Office</vt:lpstr>
+						<vt:lpstr>East Converter </vt:lpstr>
+						<vt:lpstr>Introduction</vt:lpstr>
+						<vt:lpstr>Suite</vt:lpstr>
+						<vt:lpstr>Principes de fonctionnement</vt:lpstr>
+					</vt:vector>
+				</TitlesOfParts>
+				<Company>Fujitsu Technology Solutions</Company>
+				<LinksUpToDate>false</LinksUpToDate>
+				<SharedDoc>false</SharedDoc>
+				<HyperlinksChanged>false</HyperlinksChanged>
+				<AppVersion>14.0000</AppVersion>
+			</Properties>
+		</pkg:xmlData>
+	</pkg:part>
+</pkg:package>
